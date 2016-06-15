@@ -5,15 +5,19 @@
             <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle1" name="light-main" class=" ">Main Light</ion-toggle>
             <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle2" name="light-bed" class=" ">Bedroom Light</ion-toggle>
             <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle3" name="light-kitchen" class=" ">Kitchen Light</ion-toggle>
-            <ion-item class="range range-positive " id="controlPanel-range1">Brightness
+            <ion-item class="range range-positive " id="controlPanel-range1">
+              <i class="icon ion-ios-sunny-outline dark"></i>
                 <input type="range" value="50" min="0" max="100" name="brightness">
+                <i class="icon ion-ios-sunny energized"></i>
             </ion-item>
         </form>
         <h4 id="controlPanel-heading2" style="color:#F11212;font-weight:400;text-align:center;" class=" ">Temperature and Humidity</h4>
         <form id="controlPanel-form2" class="list ">
             <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle4" class=" ">Fan</ion-toggle>
-            <ion-item class="range range-positive " id="controlPanel-range2">Speed
+            <ion-item class="range range-positive " id="controlPanel-range2">
+              <i class="icon ion-ios-snowy dark"></i>
                 <input type="range" value="50" min="0" max="100" name="speed">
+                <i class="icon ion-ios-snowy positive"></i>
             </ion-item>
         </form>
     </ion-content>
