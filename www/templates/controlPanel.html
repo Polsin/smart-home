@@ -1,0 +1,20 @@
+<ion-view title="Control Panel" id="page2" class=" ">
+    <ion-content padding="true" class="has-header">
+        <form id="controlPanel-form1" class="list ">
+            <h4 id="controlPanel-heading1" style="color:#F11212;font-weight:400;text-align:center;" class=" ">Lights</h4>
+            <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle1" name="light-main" class=" ">Main Light</ion-toggle>
+            <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle2" name="light-bed" class=" ">Bedroom Light</ion-toggle>
+            <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle3" name="light-kitchen" class=" ">Kitchen Light</ion-toggle>
+            <ion-item class="range range-positive " id="controlPanel-range1">Brightness
+                <input type="range" value="50" min="0" max="100" name="brightness">
+            </ion-item>
+        </form>
+        <h4 id="controlPanel-heading2" style="color:#F11212;font-weight:400;text-align:center;" class=" ">Temperature and Humidity</h4>
+        <form id="controlPanel-form2" class="list ">
+            <ion-toggle toggle-class="toggle-balanced" id="controlPanel-toggle4" class=" ">Fan</ion-toggle>
+            <ion-item class="range range-positive " id="controlPanel-range2">Speed
+                <input type="range" value="50" min="0" max="100" name="speed">
+            </ion-item>
+        </form>
+    </ion-content>
+</ion-view>
